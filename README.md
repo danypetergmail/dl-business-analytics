@@ -1,6 +1,8 @@
 # Deep Learning for Business Analytics
 ### From Basics to Large Language Models
 
+**Authors: Dr. M. Ramasubramaniam & Mr. Daniel Peter**
+
 A practical, hands-on book for students and business analytics professionals.  
 Each chapter is a self-contained Jupyter notebook built for Google Colab.
 
@@ -10,17 +12,15 @@ Each chapter is a self-contained Jupyter notebook built for Google Colab.
 
 ### Option A — Google Colab (recommended, no setup)
 Click any **Open in Colab** badge below. The notebook opens directly in your browser.  
-Go to **Runtime → Change runtime type** if you want to enable a GPU (optional).
+A GPU is not required — all exercises run on CPU. A GPU (available free on Colab) will speed up training in Chapters 4–6.
 
 ### Option B — Run locally
 ```bash
-git clone https://github.com/YOUR_USERNAME/dl-business-analytics.git
+git clone https://github.com/danypetergmail/dl-business-analytics.git
 cd dl-business-analytics
 pip install -r requirements.txt
 jupyter notebook
 ```
-
-> Replace `YOUR_USERNAME` with your actual GitHub username in all badge links below.
 
 ---
 
@@ -28,14 +28,14 @@ jupyter notebook
 
 | # | Chapter | Open in Colab |
 |---|---------|---------------|
-| 0 | Introduction & Setup | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/dl-business-analytics/blob/main/notebooks/ch00_intro.ipynb) |
-| 1 | Foundations of Deep Learning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/dl-business-analytics/blob/main/notebooks/ch01_foundations.ipynb) |
-| 2 | Essential Tools and Math | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/dl-business-analytics/blob/main/notebooks/ch02_tools_math.ipynb) |
-| 3 | Optimization and Training | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/dl-business-analytics/blob/main/notebooks/ch03_optimization.ipynb) |
-| 4 | Feedforward Neural Networks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/dl-business-analytics/blob/main/notebooks/ch04_ffn.ipynb) |
-| 5 | Convolutional Neural Networks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/dl-business-analytics/blob/main/notebooks/ch05_cnn.ipynb) |
-| 6 | Recurrent Networks and LSTMs | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/dl-business-analytics/blob/main/notebooks/ch06_rnn_lstm.ipynb) |
-| 7 | Large Language Models | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/dl-business-analytics/blob/main/notebooks/ch07_llm.ipynb) |
+| 0 | Introduction & Setup | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danypetergmail/dl-business-analytics/blob/main/notebooks/ch00_intro.ipynb) |
+| 1 | Foundations of Deep Learning | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danypetergmail/dl-business-analytics/blob/main/notebooks/ch01_foundations.ipynb) |
+| 2 | Essential Tools and Math | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danypetergmail/dl-business-analytics/blob/main/notebooks/ch02_tools_math.ipynb) |
+| 3 | Optimization and Training | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danypetergmail/dl-business-analytics/blob/main/notebooks/ch03_optimization.ipynb) |
+| 4 | Feedforward Neural Networks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danypetergmail/dl-business-analytics/blob/main/notebooks/ch04_ffn.ipynb) |
+| 5 | Convolutional Neural Networks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danypetergmail/dl-business-analytics/blob/main/notebooks/ch05_cnn.ipynb) |
+| 6 | Recurrent Networks and LSTMs | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danypetergmail/dl-business-analytics/blob/main/notebooks/ch06_rnn_lstm.ipynb) |
+| 7 | Large Language Models | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danypetergmail/dl-business-analytics/blob/main/notebooks/ch07_llm.ipynb) |
 
 ---
 
@@ -71,22 +71,3 @@ All datasets used in this book are publicly available and free. Each notebook co
 
 This book and all notebooks are released under the [MIT License](LICENSE).  
 You are free to use, adapt, and share with attribution.
-```
-
-Commit message: `Update README with full book description and Colab badges`
-
----
-
-## Step 6: Add a .gitignore entry for data files
-
-Click on `.gitignore` → edit → add these lines at the bottom:
-```
-# Book-specific ignores
-data/*.csv
-data/*.zip
-data/*.json
-data/*.parquet
-*.kaggle.json
-.env
-__pycache__/
-.ipynb_checkpoints/
