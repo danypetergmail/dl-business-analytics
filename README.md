@@ -36,7 +36,7 @@ jupyter notebook
 | 5 | Convolutional Neural Networks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danypetergmail/dl-business-analytics/blob/main/notebooks/ch05_cnn.ipynb) |
 | 6 | Recurrent Networks and LSTMs | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danypetergmail/dl-business-analytics/blob/main/notebooks/ch06_rnn_lstm.ipynb) |
 | 7 | Large Language Models | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danypetergmail/dl-business-analytics/blob/main/notebooks/ch07_llm.ipynb) |
-
+| Bonus | Deployment | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danypetergmail/dl-business-analytics/blob/main/ch_bonus_deployment.ipynb) |
 ---
 
 ## Prerequisites
